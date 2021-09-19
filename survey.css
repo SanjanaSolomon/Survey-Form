@@ -1,0 +1,101 @@
+body {
+    background: url("https://images.unsplash.com/photo-1596461009523-7d647a4e2399?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #main {
+    padding: 40px;
+  }
+  #title {
+    color: white;
+    text-align: center;
+  }
+  #description {
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  #bg {
+    background-color: hsl(258, 46%, 27%);
+    opacity: 0.8;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5px;
+    padding: 40px;
+  }
+  #survey-form {
+    color: white;
+    display: block;
+  }
+  
+  #name {
+    color: hsl(258, 56%, 100%);
+  }
+  #name-label {
+    width:100;
+  }
+  #email {
+    font-weight: normal;
+  }
+  #email-label {
+    font-weight: normal;
+  }
+  #number {
+    font-weight: normal;
+  }
+  #number-label {
+    font-weight: normal;
+  }
+  #dropdown {
+    font-weight: normal;
+  }
+  #submit {
+    font-weight: normal;
+  }
+  label {
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 20px;
+  }
+  input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  select {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  #radio {
+    padding: 5px;
+    width: 10%;
+    white-space: nowrap;
+  }
+  #container {
+    padding: 5px;
+    width: 10%;
+    white-space: nowrap;
+  }
+  textarea {
+    width: 100%;
+    overflow-y: scroll;
+    font-size: 20px;
+    padding: 10px;
+  }
+  button {
+    width: 100%;
+    font-size: 20px;
+    opacity: 0.9;
+    padding: 10px;
+    background-color: hsl(120, 100%, 20%);
+    color: white;
+  }
+  #button {
+    padding: 10px;
+    align-content: center;
+  }
+  button:hover {
+    background-color: hsl(120, 100%, 5%);
+  }
